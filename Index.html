@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StepSocial – Design Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">StepSocial</div>
+            <ul>
+                <li><a href=" ">Home</a ></li>
+                <li><a href="#overview">Overview</a ></li>
+                <li><a href="#process">Design Process</a ></li>
+                <li><a href="#prototype">Prototype</a ></li>
+                <li><a href="#evaluation">Evaluation</a ></li>
+                <li><a href="#reflections">Reflections</a ></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>StepSocial</h1>
+            <p>A virtual practice app for people with social anxiety</p >
+            <p class="sub">CSE 400 – Human Computer Interaction</p >
+        </div>
+    </section>
+
+    <!-- Overview -->
+    <section id="overview">
+        <div class="container">
+            <h2>Project Overview</h2>
+            <p><strong>The Problem:</strong> Social anxiety affects 7-13% of the population. People with social anxiety <em>want</em> to socialize, but real-world situations exceed their coping threshold. Existing solutions (therapy, books, AI chatbots) all have gaps.</p >
+            <p><strong>The Core Gap:</strong> No low-pressure, repeatable, non-judgmental practice environment exists.</p >
+            <p><strong>Target Users:</strong> Young adults (18-35) with mild to moderate social anxiety.</p >
+            <p><strong>Solution:</strong> A mobile app where users practice virtual social scenarios, receive gentle feedback, track their progress, and gradually build confidence.</p >
+        </div>
+    </section>
+
+    <!-- Design Process -->
+    <section id="process">
+        <div class="container">
+            <h2>Design Process</h2>
+
+            <h3>Three Design Goals</h3>
+            <ul>
+                <li><strong>Goal 1:</strong> Practice a virtual social scenario – users interact with simulated conversations in a safe environment</li>
+                <li><strong>Goal 2:</strong> View progress chart – users see their anxiety scores decrease over time</li>
+                <li><strong>Goal 3:</strong> Watch anonymous user stories – users see others' success stories to feel less alone</li>
+            </ul>
+
+            <h3>User Research</h3>
+            <p>I conducted research using semi-structured interviews (planned) and analyzed sources including scientific articles, Reddit posts (r/socialanxiety), and app store reviews. Six key findings emerged:</p >
+            <ul>
+                <li>Users fear being judged by others</li>
+                <li>AI chatbots feel "fake" and unrealistic</li>
+                <li>Users need very low-pressure starting points</li>
+                <li>Users quit after one failure because of shame</li>
+                <li>Anonymity is critical</li>
+                <li>Feedback must be gentle, never critical</li>
+            </ul>
+            <p><strong>Key insight:</strong> Focus on emotional safety, not content quantity.</p >
+
+            <h3>Three Core Tasks</h3>
+            <ul>
+                <li><strong>T1 (Easy):</strong> Select and practice a virtual social scenario</li>
+                <li><strong>T2 (Moderate):</strong> View personal progress chart</li>
+                <li><strong>T3 (Complex):</strong> Unlock next difficulty level</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Prototype -->
+    <section id="prototype">
+        <div class="container">
+            <h2>Prototype</h2>
+
+            <h3>High-Fidelity Mockup</h3>
+            <p>I built the prototype in Figma. The six screens below show the complete Task 1 flow.</p >
+
+            <div class="grid">
+                <div>
+                    < img src="screen1.png" alt="Start Screen">
+                    <p><strong>Start Screen</strong></p >
+                </div>
+                <div>
+                    < img src="screen2.png" alt="Difficulty Level">
+                    <p><strong>Difficulty Level</strong></p >
+                </div>
+                <div>
+                    < img src="screen3.png" alt="Level 1 Scenarios">
+                    <p><strong>Level 1 Scenarios</strong></p >
+                </div>
+                <div>
+                    < img src="screen4.png" alt="Level 2 Scenarios">
+                    <p><strong>Level 2 Scenarios</strong></p >
+                </div>
+                <div>
+                    < img src="screen5.png" alt="Practice">
+                    <p><strong>Practice</strong></p >
+                </div>
+                <div>
+                    < img src="screen6.png" alt="Feedback">
+                    <p><strong>Feedback</strong></p >
+                </div>
+            </div>
+
+            <h3>Design Decisions</h3>
+            <ul>
+                <li>Calming color palette (soft blues, whites, light gray)</li>
+                <li>Large buttons for easy tapping</li>
+                <li>Short, simple text to reduce cognitive load</li>
+                <li>Gentle, non-judgmental feedback language</li>
+                <li>Progress tracking with visual indicators</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Evaluation -->
+    <section id="evaluation">
+        <div class="container">
+            <h2>Heuristic Evaluation</h2>
+            <p>Another team evaluated my prototype using Nielsen's ten usability heuristics. They rated issues on a scale of 0-4.</p >
+
+            <h3>Issues Found</h3>
+            <ul>
+                <li><strong>Major Issue (3):</strong> Feedback doesn't provide helpful suggestions when users make less appropriate choices. The app says "Your response was appropriate" even when the reply wasn't ideal – users learn nothing from the experience.</li>
+                <li><strong>Minor Issues (2):</strong> No visual indicator for completed scenarios; no onboarding for first-time users; no progress indicator between screens; no confirmation step before submitting.</li>
+            </ul>
+
+            <h3>Changes Made</h3>
+            <ul>
+                <li>Improved feedback to include gentle suggestions and better examples</li>
+                <li>Added checkmark icons for completed scenarios</li>
+                <li>Added a brief onboarding tutorial for first-time users</li>
+                <li>Added progress indicators between screens</li>
+                <li>Added a confirmation step before submitting answers</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Reflections -->
+    <section id="reflections">
+        <div class="container">
+            <h2>Reflections & Conclusion</h2>
+            <p><strong>What I learned:</strong> Heuristic evaluation catches issues designers miss. Small usability details matter for user confidence. Emotional safety is a design requirement, not a nice-to-have.</p >
+            <p><strong>What worked well:</strong> The visual direction was solid from the start. The three-task structure kept the project focused. The evaluation feedback was actionable and specific.</p >
+            <p><strong>What could be improved:</strong> I could have conducted user interviews earlier. More user testing would have helped validate design decisions.</p >
+            <p><strong>How the prototype addresses user needs:</strong> The app provides a safe, low-pressure environment for practicing social interactions. Users control their pace, get gentle feedback, and can track their progress. The design prioritizes emotional safety over content quantity.</p >
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>CSE 400 – Human Computer Interaction | StepSocial | Yuhong Xu</p >
+        </div>
+    </footer>
+
+</body>
+</html>
